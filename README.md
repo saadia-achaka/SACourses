@@ -1,6 +1,6 @@
 # 🎓 SACourses – Plateforme E-Learning
 
-![SACourses](screenshots/home.png)
+![SACourses](screenshots/photo_platforme.jpg)
 
 ## 📌 Description
 
