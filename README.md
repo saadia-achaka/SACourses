@@ -63,7 +63,7 @@ SACourses/
 │
 ├── screenshots/        # Captures d'écran
 ├── README.md           # Documentation du projet
-└── .gitignore          # Fichiers ignorés par Git
+
 ```
 
 ---
@@ -107,12 +107,7 @@ Créer une base de données pour le projet et importer le fichier SQL de la base
 
 Modifier les paramètres de connexion à la base de données selon votre configuration locale.
 
-### 6. Lancer l'application
 
-Ouvrir dans le navigateur :
-
-```text
-http://localhost/SACourses/
 ```
 
 ---
@@ -121,35 +116,25 @@ http://localhost/SACourses/
 
 ### 🏠 Page d'accueil
 
-![Page d'accueil](screenshots/home.png)
+![Page d'accueil](screenshots/dachboardPNG.PNG)
 
 ### 📚 Page des cours
 
-![Cours](screenshots/courses.png)
+![Cours](screenshots/cours.JPG)
 
 ### 🎥 Cours vidéo
 
-![Vidéo](screenshots/video.png)
+![Vidéo](screenshots/plyE.JPG)
 
 ### 📝 Quiz
 
-![Quiz](screenshots/quiz.png)
+![Quiz](screenshots/quiz.JPG)
 
 ### 👨‍💼 Dashboard Administrateur
 
-![Administration](screenshots/admin.png)
+![Administration](screenshots/teacher.JPG)
 
 ---
-
-## 🚀 Améliorations futures
-
-* 🔐 Amélioration de la sécurité et de l'authentification
-* 📱 Adaptation complète aux appareils mobiles
-* 📊 Ajout d'un système de suivi de progression
-* 🏆 Système de récompenses et de badges
-* 💬 Ajout d'un système de commentaires
-* 📧 Notifications pour les utilisateurs
-* ☁️ Déploiement de la plateforme en ligne
 
 ---
 
