@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcomme</title>
+</head>
+ <body> 
+<section class="hero-section">
+   <div class="content">
+      <h1>Bienvenue sur SACourses</h1>
+      <p>Explorez nos playlists éducatives spécialement conçues pour les enfants. Apprenez en vous amusant avec des cours interactifs sur le développement, les réseaux, la sécurité, et bien plus encore.</p>
+      <a href="home.php" class="cta-btn">Commencer</a>
+   </div>
+   <div class="image-container">
+      <img src="../images/home-background.jpg" alt="Enfants apprenant en ligne">
+   </div>
+</section>
+
+<style>
+  /* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: linear-gradient(to right, #87CEEB, #98FB98);
+  color: #333;
+  min-height: 80vh;
+  gap: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section .content {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section .content h1 {
+  font-size: 3rem;
+  font-family: 'Baloo 2', cursive;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.hero-section .content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-section .content .cta-btn {
+  display: inline-block;
+  background-color: #FFC1CC; /* Rose pastel */
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero-section .content .cta-btn:hover {
+  background-color: #FFDE59; /* Jaune clair */
+  transform: scale(1.05);
+}
+
+.hero-section .image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-section .image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 1rem;
+  }
+
+  .hero-section .content {
+      max-width: 100%;
+  }
+
+  .hero-section .content h1 {
+      font-size: 2.5rem;
+  }
+
+  .hero-section .content p {
+      font-size: 1rem;
+  }
+}
+
+.footer{
+  position: fixed;
+  bottom: 0; right: 0; left: 0;
+  background-color: var(--white);
+  border-top: var(--border);
+  padding:2.5rem 2rem;
+  text-align: center;
+  color: ce5a82;
+  font-size: 2rem;
+  margin-top: 2rem;
+  z-index: 1000;
+}
+.footer.active{
+  padding-left: 2rem;
+}
+
+.footer span{
+  color: var(--main-color);
+}
+
+
+</style>
+
+</body>
+<footer class="footer">
+  &copy; <?= date('Y'); ?> SACourses. Votre espace d'apprentissage en ligne. Tous droits réservés.
+</footer>
+
+
+</html>
+
